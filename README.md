@@ -39,7 +39,7 @@ Examined how combinations of features (e.g., Glucose, BMI, Age) impact diabetes 
 
 
 
-# Tools/Packages Used:
+Tools/Packages Used:
 
 Pandas, Matplotlib, Seaborn for data manipulation and visualization.
 
@@ -100,52 +100,3 @@ It was selected as the final model for diabetes prediction.
 The selected XGBoost model achieved the best performance and was able to predict diabetes onset with high accuracy.
 
 The model will help Stark Health Clinic identify individuals at risk of diabetes, enabling timely interventions and reducing healthcare costs.
-
-# 9. Future Work
-In future iterations, I would focus on:
-
-Improving feature engineering and adding additional data sources.
-
-Exploring deep learning models for better accuracy.
-
-Deploying the model for real-time predictions in a web application.
-
-Files Included:
-diabetes_prediction_dataset.csv: Dataset containing patient health data.
-
-Tools and Libraries Used:
-Below is a list of the libraries used for data preprocessing, machine learning, and visualization:
-
-Python 3.x
-
-Pandas: For data manipulation.
-
-NumPy: For numerical computations.
-
-Matplotlib/Seaborn: For data visualization and plotting.
-
-Scikit-learn: For machine learning models and evaluation.
-
-train_test_split: To split the dataset into training and testing sets.
-
-MinMaxScaler: To scale numerical features.
-
-Classifier models:
-
-LogisticRegression
-
-SGDClassifier
-
-KNeighborsClassifier
-
-RandomForestClassifier
-
-XGBClassifier
-
-SVC (Support Vector Classifier)
-
-GaussianNB (Naive Bayes)
-
-DecisionTreeClassifier
-
-XGBoost: For advanced boosting techniques.
